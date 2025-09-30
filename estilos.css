@@ -1,0 +1,167 @@
+
+
+.cerrado{
+      margin-left: 850px;  /* lo corre hacia la derecha */
+  margin-top: 5px;   /* lo baja */
+  color: rgb(47, 119, 212);  background: #ccc7bd;
+  padding: 3px 2px;
+  border-radius: 0px;
+  background: white;
+  padding: 5px;
+  border-radius: 0px;
+  box-shadow: 4px 4px 15px rgba(0,0,0,0.3);
+}
+.casa2.png{
+     background: #ccc7bd;
+}
+.HTML{
+    
+  color: rgb(255, 255, 255); 
+  padding: 3px 2px;
+  border-radius: 0px;
+  background: rgb(255, 0, 0);
+  padding: 30px;
+  border-radius: 0px;
+
+}
+.hh{
+    text-align: justify;
+}
+
+.CSS{
+        
+  color: rgb(255, 255, 255); 
+  padding: 3px 2px;
+  border-radius: 0px;
+  background: rgb(26, 87, 255);
+  padding: 30px;
+  border-radius: 0px;
+
+}
+.JA{
+        
+  color: rgb(255, 255, 255); 
+  padding: 3px 2px;
+  border-radius: 0px;
+  background: rgb(27, 255, 65);
+  padding: 30px;
+  border-radius: 0px;
+
+}
+.htt{
+    text-align: center;
+     color: rgb(255, 255, 255); 
+  padding: 3px 2px;
+  border-radius: 0px;
+  background: rgb(255, 0, 0);
+  padding: 10px;
+  border-radius: 0px;
+}
+.cc{ text-align: center;
+     color: rgb(255, 255, 255); 
+  padding: 3px 2px;
+  border-radius: 0px;
+  background: rgb(68, 26, 255);
+  padding: 10px;
+  border-radius: 0px;
+}
+.jj{ text-align: center;
+     color: rgb(255, 255, 255); 
+  padding: 3px 2px;
+  border-radius: 0px;
+  background: rgb(43, 175, 76);
+  padding: 10px;
+  border-radius: 0px;
+}
+.desarrollo{
+    text-align: right;
+   
+}
+
+
+body {
+
+   background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.logo {
+  width: 200px;        /* tamaño de la imagen */
+  height: 200px;       /* asegúrate de que sea cuadrada */
+  border-radius: 50%;  /* 50% = círculo perfecto */
+  object-fit: cover;   /* recorta la imagen sin deformarla */
+}
+header img {
+    width: 50px; /* Ajusta el tamaño del logo según necesites */
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+header h1 {
+    display: inline;
+    vertical-align: middle;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+  
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(201, 17, 17, 0.1);
+}
+
+#definiciones {
+    display: flex;
+    justify-content: space-between;
+}
+
+#definiciones .caja {
+    width: 30%;
+    padding: 15px;
+    border: 1px solid #aa1212;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#definiciones img {
+    width: 80px; /* Ajusta el tamaño de los logos HTML, CSS, JS */
+    margin-top: 10px;
+}
+
+#analogias {
+    text-align: center;
+}
+
+#analogias .caja {
+    display: inline-block;
+    width: 30%;
+    padding: 15px;
+    border: 1px solid #bb0cac;
+    border-radius: 5px;
+    text-align: left;
+    vertical-align: top;
+}
+
+#analogias img {
+    width: 400px; /* Ajusta el tamaño de las imágenes de las casas */
+ 
+}
+
+#resumen {
+    background-color: #cf0505;
+    padding: 15px;
+    border-radius: 5px;
+}
